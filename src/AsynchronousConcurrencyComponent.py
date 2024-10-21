@@ -13,7 +13,7 @@ from tqdm import tqdm
 this component is used to automatically slice tasks into batches
 for asynchronous operations. Suited for I/O operations.
 """
-class AsynchronousComponent:
+class AsynchronousConcurrencyComponent:
 
 	def __init__(self) -> None:
 		self.__psutil_process = psutil.Process()
